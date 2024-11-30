@@ -1,0 +1,28 @@
+{
+    "error": {
+      "required_fields": "All fields are required.",
+      "invalid_email": "Invalid email format.",
+      "user_exists": "User already exists.",
+      "error_registering": "An error occurred while registering.",
+      "invalid_credentials": "Incorrect email or password.",
+      "invalid_token": "Invalid or expired token.",
+      "file_not_found": "File not found or does not belong to the user",
+      "no_file_uploaded": "No file was uploaded",
+      "invalid_file_type": "Only PDF files are allowed",
+      "no_files_found": "No files found",
+      "file_deletion_failed": "Failed to delete file from disk",
+      "search_query_required": "Search query is required",
+      "upload_failed": "Error uploading file",
+      "fetch_failed": "Error fetching files",
+      "delete_failed": "Error deleting file",
+      "update_failed": "Error updating file",
+      "search_failed": "Error searching for file"
+    },
+    "welcome": "User registered successfully!",
+    "login": "Login successful!",
+    "success": {
+      "file_uploaded": "PDF file uploaded successfully and queued for processing",
+      "file_deleted": "File deleted successfully",
+      "file_updated": "File updated successfully"
+    }
+  }
