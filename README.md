@@ -32,6 +32,10 @@ Here are the Screenshoot of CRUD Operations:
 
     * User-selectable languages for the interface.
     * Implemented using i18next or similar i18n libraries.
+*At each task you perform you can change the language  the message will be displayed in for example:
+ 
+![language](https://github.com/user-attachments/assets/1b01d213-5669-4db2-aa04-0e9d31975dde)
+ 
 
 4. Queuing System:
 Queuing system:
