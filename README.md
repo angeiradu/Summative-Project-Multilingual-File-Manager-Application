@@ -75,40 +75,36 @@ Optional Features:
 
 
 Technical Considerations
-
-    Database:
+ Database:
         - MySQL for storing user data, file metadata, and directory structures.
-
-    Queuing System:
+ Queuing System:
         - Use Redis with a suitable library (e.g., Bull, Kue) to manage background tasks.
-
-    Backend Framework:
+Backend Framework:
         - Express.js to structure the Node.js application.
-
-    Authentication:
+ Authentication:
         - Password hashing using bcrypt.
         - Optional: Leverage Passport.js for streamlined authentication flows.
-
-    Internationalization:
+Internationalization:
         - Implement using libraries such as i18next for a seamless multilingual experience.
-
-    Testing Framework:
+ Testing Framework:
         - Write unit tests using Jest to ensure reliability and robustness.
+
 
 Setup Instructions
 
+
 Clone the Repository:
+
 
 git clone <repository-url>
 cd <repository-directory>
 
+
 Install Dependencies:
-
 npm install
-
 Setup Environment Variables:
-
 Create a .env file with the following:
+
 
 DB_HOST=localhost
 DB_USER=root
@@ -119,9 +115,7 @@ REDIS_PORT=6379
 
 
 Start the Application:
-
 npm start
-
 Run Tests
-
 npm test
+
